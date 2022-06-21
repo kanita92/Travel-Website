@@ -1,6 +1,6 @@
-@import "../Import/font.css";
-@import "../Import/social.css";
-@import"../Import/nav.css";
+@import "https://kanita92.github.io/Travel-Website/font.css";
+@import "https://kanita92.github.io/Travel-Website/social.css";
+@import"https://kanita92.github.io/Travel-Website/nav.css";
 
 
 h1,h2,h3{
@@ -10,18 +10,18 @@ h1,h2,h3{
 
 h1{
     font-size: 15px;
+    
 }
 
 
 nav .menu a{
  font-size:15px;
  margin-left: 10px;
- 
-
+    
 }
 
 .card{
-    background-image: url(../Images/avatar.jpg);
+    background-image: url("https://kanita92.github.io/Travel-Website/avatar.jpg");
     height: 350px;
     width: 350px;
     background-position: center;
