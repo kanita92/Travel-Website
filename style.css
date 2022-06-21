@@ -1,6 +1,6 @@
-@import "../Import/font.css";
-@import "../Import/social.css";
-@import"../Import/nav.css";
+@import "https://kanita92.github.io/Travel-Website/font.css";
+@import "https://kanita92.github.io/Travel-Website/social.css";
+@import"https://kanita92.github.io/Travel-Website/nav.css";
 
 
 /*h1,h2,h3{
@@ -100,7 +100,7 @@ img{
 
 
 .blogpost1{
-    background-image: url("https://github.com/kanita92/Travel-Website/blob/main/highway.jpg");
+    background-image: url("https://kanita92.github.io/Travel-Website/highway.jpg");
     background-size: cover;
     opacity: 0.95;
     border-radius: 25px;
@@ -128,7 +128,7 @@ img{
 
 
 .blogpost2{
-    background-image: url(../Images/teagarden.jpg);
+    background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
     background-size: cover;
     opacity:0.95;
     border-radius: 25px;
@@ -152,7 +152,7 @@ img{
 }
 
 .blogpost3{
-    background-image: url(../Images/towers.jpg);
+    background-image: url("https://kanita92.github.io/Travel-Website/towers.jpg");
     background-size: cover;
     opacity: 0.9;
     border-radius: 25px;
@@ -213,7 +213,7 @@ footer{
 
   @media only screen and (max-width: 600px) {
         .blogpost2{
-            background-image: url(../Images/teagarden.jpg);
+            background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
             background-size: cover;
             border-radius: 5px;
             height: 80vh;
@@ -251,7 +251,7 @@ footer{
     }
 
         .blogpost1{
-            background-image: url(../Images/highway.jpg);
+            background-image: url("https://kanita92.github.io/Travel-Website/highway.jpg");
             background-size: cover;
             border-radius: 5px;
             height: 80vh;
