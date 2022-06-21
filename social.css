@@ -1,0 +1,18 @@
+.fa-twitter {
+    border-width:thin;
+    border-style:double;
+    color:black;
+  }
+  
+  .fa-linkedin {
+    color: black;
+    border-width:thin;
+    border-style:double;
+  }
+
+  .fa-facebook {
+    color: black;
+    border-width:thin;
+    border-style:double;
+    margin-left: 24px;
+  }

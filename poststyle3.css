@@ -1,0 +1,77 @@
+@import "../Import/font.css";
+@import "../Import/social.css";
+@import"../Import/nav.css";
+
+h1,h2,h3{
+    color: black;
+    margin: 16px 0;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h3{
+    font-size:15px;
+    color: blue;
+    font-style: italic;
+}
+
+
+nav .menu a{
+ font-size:15px;
+ margin-left: 24px;
+ 
+
+}
+
+.part1{
+    display:grid;
+}
+
+.statue{
+    background-image: url(../Images/towers.jpg);
+    background-position:inherit;
+    background-size:contain;
+    border-radius: 5px;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+
+
+.social{
+    font-size: 40px;
+}
+
+  .fa-twitter {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .fa-linkedin {
+    margin-top: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+        nav .menu a{
+            margin-left: 0px;
+            margin-right: 5px;
+            font-weight: bold;
+            color: red;
+            font-size: 10px;
+    }
+
+        h1{
+            font-size:17px;
+        }
+
+        .statue{
+            background-image: url(../Images/towers.jpg);
+            background-position:inherit;
+            background-size:cover;
+            border-radius: 5px;
+            height: 80vh;
+            background-repeat: no-repeat;
+        }
+}

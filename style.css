@@ -1,0 +1,284 @@
+@import "../Import/font.css";
+@import "../Import/social.css";
+@import"../Import/nav.css";
+
+
+/*h1,h2,h3{
+    margin: 16px 0;
+}*/
+
+header{
+    font-style: italic;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color:black;
+}
+
+h2{
+    font-size:15px;
+    letter-spacing: 1.0px;
+}
+
+h3{
+    font-size:15px;
+    letter-spacing: 1.5px;
+}
+
+a{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 24px;
+    color: black;
+}
+
+nav .menu a{
+    margin-left: 24px;
+    margin-right: 24px;
+    
+}
+
+.blog-container{
+    margin-top: 24px;
+    margin-left:24px;
+    margin-right: 24px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.part1{
+  display:grid;
+  grid-template-columns: repeat(4fr, 1fr);
+
+  
+}
+
+.teagarden{
+    background-image:url(../Images/blogbackground.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin:24px;
+}
+
+
+
+.part1 .intromessage{
+    background-color: white;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    z-index: 4;
+    margin:24px;
+    border-style: double;
+}
+
+.blogpostintro{
+    font:black;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.part2{
+    display: grid;
+}
+
+
+.blogpost1{
+    background-image: url(../Images/highway.jpg);
+    background-size: cover;
+    opacity: 0.95;
+    border-radius: 25px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin:24px;
+    border-style: double;
+
+}
+
+.cameron{
+    font:black;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.part3{
+    display: grid;
+}
+
+
+.blogpost2{
+    background-image: url(../Images/teagarden.jpg);
+    background-size: cover;
+    opacity:0.95;
+    border-radius: 25px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin:24px;
+    color:black;
+    font-style: normal;
+    border-style: double;
+
+}
+
+
+.part4{
+    display: grid;
+}
+
+.blogpost3{
+    background-image: url(../Images/towers.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    border-radius: 25px;
+    height: 80vh;
+    background-repeat:repeat;
+    background-position: center;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin:24px;
+    font-style: normal;
+    border-style: double;
+
+}
+
+label{
+    color:black;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+    
+button{
+        display: inline-flex;
+        margin-top:10px;
+        margin-right: 10px;
+
+}
+
+.part5{
+    background-color:white;
+    color: black;
+    margin:24px;
+}
+
+
+.logo{
+    margin-top: 15px;
+}
+
+
+/*figure{
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 24px;
+    font-size: 10px;
+}*/
+
+.social{
+    font-size: 20px;
+}
+
+footer{
+    background:lightgray;
+    margin:24px;
+}
+
+  @media only screen and (max-width: 600px) {
+        .blogpost2{
+            background-image: url(../Images/teagarden.jpg);
+            background-size: cover;
+            border-radius: 5px;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            margin: 24px;
+            color: black;
+            font-style: italic;
+    }
+  
+
+        h1{
+            font-size: 15px;
+            font-weight: bolder;
+            margin-top: 10px;
+            color:black;
+    }
+
+        nav .menu a{
+            margin-right: 5px;
+            font-weight: bold;
+            color: red;
+            font-size: 12px;
+  }
+        footer{
+            margin-left:24px;
+    }
+
+        h2{
+            font-size:15px;
+    }
+
+        .blogpost1{
+            background-image: url(../Images/highway.jpg);
+            background-size: cover;
+            border-radius: 5px;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            margin:24px;
+            color:black;
+            font-style: italic;
+    
+    }
+        .blogpostintro{
+            color: black;
+        }
+
+        .blacklink{
+            color: black;
+    }
+     
+        .redlink{
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+ 
+
+}
+   

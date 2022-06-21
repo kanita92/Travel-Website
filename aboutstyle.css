@@ -1,0 +1,29 @@
+@import "../Import/font.css";
+@import "../Import/social.css";
+@import"../Import/nav.css";
+
+
+h1,h2,h3{
+    color: black;
+    margin: 16px 0;
+}
+
+h1{
+    font-size: 15px;
+}
+
+
+nav .menu a{
+ font-size:15px;
+ margin-left: 10px;
+ 
+
+}
+
+.card{
+    background-image: url(../Images/avatar.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-size:auto;
+}
