@@ -63,7 +63,7 @@ img{
 }
 
 .teagarden{
-    background-image:url(../Images/blogbackground.jpg);
+    background-image:url("https://kanita92.github.io/Travel-Website/blogbackground.jpg");
     background-size: cover;
     height: 80vh;
     background-repeat: no-repeat;
