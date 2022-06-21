@@ -100,7 +100,7 @@ img{
 
 
 .blogpost1{
-    background-image: url(../Images/highway.jpg);
+    background-image: url("https://github.com/kanita92/Travel-Website/blob/main/highway.jpg");
     background-size: cover;
     opacity: 0.95;
     border-radius: 25px;
