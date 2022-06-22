@@ -19,13 +19,13 @@ h1{
 }
 
 h2{
-    font-size:15px;
+    font-size:20px;
     letter-spacing: 1.0px;
 }
 
 h3{
     font-size:15px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.0px;
 }
 
 a{
@@ -53,13 +53,10 @@ img{
     height: auto;
 }
 
-
-
 .part1{
   display:grid;
   grid-template-columns: repeat(4fr, 1fr);
-
-  
+ 
 }
 
 .teagarden{
@@ -145,7 +142,6 @@ img{
     border-style: double;
 
 }
-
 
 .part4{
     display: grid;
@@ -241,7 +237,7 @@ footer{
     }
         nav{
             display: grid;
-            grid-template-columns: 2fr 1fr;
+            grid-template-columns: 1.5fr 1fr;
             
     }
 
@@ -256,7 +252,7 @@ footer{
     }
 
         h2{
-            font-size:15px;
+            font-size:12px;
     }
 
         .blogpost1{
