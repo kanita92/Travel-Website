@@ -232,6 +232,10 @@ footer{
             color:black;
             white-space:nowrap;
     }
+      
+        h2{
+            font-size:12px;
+    }
         .blog-container{
 /*             margin-left: 24px; */
             
@@ -248,9 +252,11 @@ footer{
 /*             font-size: 12px; */
             display:in-line;
             text-align: right;
-  }
+    }
         a{
             font-size:12px;
+            
+    }
         footer{
 /*             margin-left:24px; */
     }
@@ -277,7 +283,7 @@ footer{
     }
         .blogpostintro{
             color: black;
-        }
+    }
 
         .blacklink{
             color: black;
@@ -286,7 +292,7 @@ footer{
         .redlink{
 /*             font-size: 15px; */
             letter-spacing: 0.5px;
-        }
+    }
  
 
 }
