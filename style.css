@@ -235,12 +235,21 @@ footer{
             margin-top: 10px;
             color:black;
     }
+        .blog-container{
+            margin-left: 24px;
+            
+    }
+        nav{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            
+    }
 
         nav .menu a{
-            margin-right: 0px;
             font-weight: bold;
             color: red;
             font-size: 12px;
+            text-align: center;
   }
         footer{
             margin-left:24px;
