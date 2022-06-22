@@ -234,7 +234,7 @@ footer{
     }
       
         h2{
-            font-size:12px;
+            font-size:13px;
     }
         .blog-container{
 /*             margin-left: 24px; */
@@ -254,16 +254,14 @@ footer{
             text-align: right;
     }
         a{
-            font-size:12px;
+            font-size:13px;
             
     }
         footer{
 /*             margin-left:24px; */
     }
 
-        h2{
-/*             font-size:12px; */
-    }
+     
 
         .blogpost1{
             background-image: url("https://kanita92.github.io/Travel-Website/highway.jpg");
@@ -286,11 +284,12 @@ footer{
     }
 
         .blacklink{
+            font-size: 15px;
             color: black;
     }
      
         .redlink{
-/*             font-size: 15px; */
+            font-size: 15px;
             letter-spacing: 0.5px;
     }
  
