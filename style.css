@@ -226,10 +226,11 @@ footer{
   
 
         h1{
-/*             font-size: 15px; */
+            font-size: 18px;
             font-weight: bolder;
 /*             margin-top: 10px; */
             color:black;
+            white-space:nowrap;
     }
         .blog-container{
 /*             margin-left: 24px; */
@@ -246,7 +247,10 @@ footer{
             color: red;
 /*             font-size: 12px; */
             display:in-line;
+            text-align: right;
   }
+        a{
+            font-size:12px;
         footer{
 /*             margin-left:24px; */
     }
