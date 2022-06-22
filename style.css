@@ -249,6 +249,7 @@ footer{
             font-weight: bold;
             color: red;
             font-size: 12px;
+            display:in-line;
   }
         footer{
             margin-left:24px;
