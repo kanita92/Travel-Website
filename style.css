@@ -245,7 +245,7 @@ footer{
             
     }
 
-        nav .menu a{
+        .menu{
             font-weight: bold;
             color: red;
             font-size: 12px;
