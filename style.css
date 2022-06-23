@@ -224,13 +224,16 @@ footer{
             font-style: italic;
     }
   
-
+        .logo{
+            white-space:nowrap;
+    }
+      
+      
         h1{
             font-size: 18px;
             font-weight: bolder;
 /*             margin-top: 10px; */
             color:black;
-            white-space:nowrap;
     }
       
         h2{
