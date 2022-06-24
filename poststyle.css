@@ -3,7 +3,7 @@
 @import"https://kanita92.github.io/Travel-Website/nav.css";
 
 
-h1,h2,h3{
+h1,h2{
     color: black;
     margin: 16px 0;
 }
@@ -14,7 +14,6 @@ h1{
 
 h2{
     font-size:15px;
-    color: black;
     font-style: normal;
 }
 
