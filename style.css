@@ -2,35 +2,25 @@
 @import "https://kanita92.github.io/Travel-Website/social.css";
 @import"https://kanita92.github.io/Travel-Website/nav.css";
 
-
-/*h1,h2,h3{
-    margin: 16px 0;
-}*/
-
-header{
-    font-style: italic;
-/*     font-size: 20px; */
-}
-
 h1{
-/*     font-size: 30px; */
+    font-size: 30px;
     font-weight: bolder;
     color:black;
 }
 
 h2{
-/*     font-size:20px; */
+    font-size:20px;
     letter-spacing: 1.0px;
 }
 
 h3{
-/*     font-size:15px; */
+    font-size:15px;
     letter-spacing: 1.0px;
 }
 
 a{
     text-decoration: underline;
-/*     font-size: 20px; */
+    font-size: 15px;
     font-weight: bolder;
 /*     margin-left: 24px; */
     color: black;
@@ -40,12 +30,6 @@ nav .menu a{
 /*     margin-left: 24px; */
 /*     margin-right: 24px; */
     
-}
-
-.blog-container{
-/*     margin-top: 24px; */
-/*     margin-left:24px; */
-/*     margin-right: 24px; */
 }
 
 img{
@@ -69,7 +53,6 @@ img{
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
-/*     margin:24px; */
 }
 
 
@@ -81,14 +64,12 @@ img{
     grid-column-start: 2;
     grid-column-end: 4;
     z-index: 4;
-/*     margin:24px; */
     border-style: double;
 }
 
 .blogpostintro{
     font:black;
     text-align: left;
-/*     padding-left: 0px; */
 }
 
 .part2{
@@ -108,7 +89,6 @@ img{
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
-/*     margin:24px; */
     border-style: double;
 
 }
@@ -116,7 +96,6 @@ img{
 .cameron{
     font:black;
     text-align: left;
-/*     padding-left: 0px; */
 }
 
 .part3{
@@ -135,8 +114,6 @@ img{
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 1;
-    grid-column-end: 4;
-/*     margin:24px; */
     color:black;
     font-style: normal;
     border-style: double;
@@ -159,7 +136,6 @@ img{
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
-/*     margin:24px; */
     font-style: normal;
     border-style: double;
 
@@ -183,20 +159,6 @@ button{
     color: black;
 /*     margin:24px; */
 }
-
-
-.logo{
-/*     margin-top: 15px; */
-}
-
-
-/*figure{
-    font-style: italic;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 24px;
-    font-size: 10px;
-}*/
 
 .social{
 /*     font-size: 20px; */
