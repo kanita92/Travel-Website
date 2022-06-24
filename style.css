@@ -169,6 +169,21 @@ footer{
 /*     margin:24px; */
 }
 
+.blacklink{
+    color: red;
+    font-weight: bolder;
+}
+     
+ .redlink{
+     color: red;
+     font-weight: bolder;
+}
+      
+  .bluelink{
+     color: red;
+     font-weight: bolder;
+}
+
   @media only screen and (max-width: 600px) {
         .blogpost2{
             background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
