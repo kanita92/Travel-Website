@@ -23,7 +23,6 @@ a{
     text-decoration: underline;
     font-size: 15px;
     font-weight: bolder;
-/*     margin-left: 24px; */
     color: black;
 }
 
@@ -144,30 +143,21 @@ img{
 
 label{
     color:black;
-/*     margin-top: 30px; */
-/*     padding-top: 30px; */
 }
     
 button{
         display: inline-flex;
-/*         margin-top:10px; */
-/*         margin-right: 10px; */
-
 }
 
 .part5{
     background-color:white;
     color: black;
-/*     margin:24px; */
+
 }
 
-.social{
-/*     font-size: 20px; */
-}
 
 footer{
     background:lightgray;
-/*     margin:24px; */
 }
 
 .blacklink{
