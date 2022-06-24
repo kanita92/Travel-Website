@@ -3,11 +3,6 @@
 @import"https://kanita92.github.io/Travel-Website/nav.css";
 
 
-h1,h2{
-    color: black;
-    margin: 16px 0;
-}
-
 h1{
     font-size: 25px;
 }
@@ -19,8 +14,8 @@ h2{
 
 
 nav .menu a{
- font-size:20px;
- margin-left: 24px;
+    font-size:20px;
+    margin-left: 24px;
  
 }
 
@@ -64,25 +59,24 @@ nav .menu a{
     font-size: 20px;
 }
 
-
-  .fa-twitter {
+.fa-twitter {
     margin-right: 10px;
-  }
+}
   
-  .fa-linkedin {
+.fa-linkedin {
     color: black;
     border-width:thin;
     border-style:double;
-  }
+}
 
-  .fa-facebook {
+.fa-facebook {
     margin-left: 10px;
-  }
+}
 
-  ul{
-      margin:20px;
-      padding: 0px;
-  }
+ul{
+    margin:20px;
+    padding: 0px;
+}
 
 
   @media only screen and (max-width: 600px) {
