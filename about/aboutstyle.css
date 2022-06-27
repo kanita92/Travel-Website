@@ -1,0 +1,18 @@
+@import "../homePage/font.css";
+@import "../homePage/social.css";
+@import"../homePage/nav.css";
+
+
+nav .menu a{
+ font-size:15px;
+ margin-left: 10px;
+    
+}
+
+.card{
+    background-image: url("../images/avatar.jpg");
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-size:auto;
+}

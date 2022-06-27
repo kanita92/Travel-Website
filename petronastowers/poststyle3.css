@@ -1,6 +1,6 @@
-@import "https://kanita92.github.io/Travel-Website/font.css";
-@import "https://kanita92.github.io/Travel-Website/social.css";
-@import "https://kanita92.github.io/Travel-Website/nav.css";
+@import "./font.css";
+@import "./social.css";
+@import"./nav.css";
 
 
 h1{
@@ -26,7 +26,7 @@ nav .menu a{
 }
 
 .statue{
-    background-image: url("https://kanita92.github.io/Travel-Website/towers.jpg");
+    background-image: url("../images/towers.jpg");
     background-position:inherit;
     background-size:contain;
     border-radius: 5px;
@@ -63,7 +63,7 @@ nav .menu a{
         }
 
         .statue{
-            background-image: url("https://kanita92.github.io/Travel-Website/towers.jpg");
+            background-image: url("../images/towers.jpg");
             background-position:inherit;
             background-size:cover;
             border-radius: 5px;

@@ -1,6 +1,6 @@
-@import "https://kanita92.github.io/Travel-Website/font.css";
-@import "https://kanita92.github.io/Travel-Website/social.css";
-@import"https://kanita92.github.io/Travel-Website/nav.css";
+@import "./font.css";
+@import "./social.css";
+@import"./nav.css";
 
 h1{
     font-size: 30px;
@@ -38,7 +38,7 @@ img{
 }
 
 .teagarden{
-    background-image:url("https://kanita92.github.io/Travel-Website/blogbackground.jpg");
+    background-image:url("../images/blogbackground.jpg");
     background-size: cover;
     height: 80vh;
     background-repeat: no-repeat;
@@ -72,7 +72,7 @@ img{
 
 
 .blogpost1{
-    background-image: url("https://kanita92.github.io/Travel-Website/highway.jpg");
+    background-image: url("../images/highway.jpg");
     background-size: cover;
     opacity: 0.95;
     border-radius: 25px;
@@ -98,7 +98,7 @@ img{
 
 
 .blogpost2{
-    background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
+    background-image: url("../images/teagarden.jpg");
     background-size: cover;
     opacity:0.95;
     border-radius: 25px;
@@ -119,7 +119,7 @@ img{
 }
 
 .blogpost3{
-    background-image: url("https://kanita92.github.io/Travel-Website/towers.jpg");
+    background-image: url("../images/towers.jpg");
     background-size: cover;
     opacity: 0.9;
     border-radius: 25px;
@@ -174,13 +174,13 @@ footer{
 }
 
   span{
-      text-docoration: underline;
+      text-decoration: underline;
 }
     
 
   @media only screen and (max-width: 600px) {
         .blogpost2{
-            background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
+            background-image: url("../images/teagarden.jpg");
             background-size: cover;
             border-radius: 5px;
             height: 80vh;
@@ -227,7 +227,7 @@ footer{
     }
  
         .blogpost1{
-            background-image: url("https://kanita92.github.io/Travel-Website/highway.jpg");
+            background-image: url("../images/highway.jpg");
             background-size: cover;
             border-radius: 5px;
             height: 80vh;
@@ -243,7 +243,7 @@ footer{
     }
       
       .blogpost3{
-            background-image: url("https://kanita92.github.io/Travel-Website/towers.jpg");
+            background-image: url("../images/towers.jpg");
             background-size: cover;
             opacity: 0.9;
             border-radius: 5px;

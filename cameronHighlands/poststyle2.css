@@ -1,7 +1,6 @@
-@import "https://kanita92.github.io/Travel-Website/font.css";
-@import "https://kanita92.github.io/Travel-Website/social.css";
-@import"https://kanita92.github.io/Travel-Website/nav.css";
-
+@import "../homePage/font.css";
+@import "../homePage/social.css";
+@import"../homePage/nav.css";
 
 h1{
     font-size: 25px;
@@ -26,7 +25,7 @@ nav .menu a{
 }
 
 .statue{
-    background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
+    background-image: url("../images/teagarden.jpg");
     background-position:center;
     background-size:contain;
     border-radius: 5px;
@@ -64,7 +63,7 @@ nav .menu a{
         }
 
         .statue{
-            background-image: url("https://kanita92.github.io/Travel-Website/teagarden.jpg");
+            background-image: url("../images/teagarden.jpg");
             background-position:inherit;
             background-size:cover;
             border-radius: 5px;

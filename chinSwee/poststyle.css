@@ -1,6 +1,7 @@
-@import "https://kanita92.github.io/Travel-Website/font.css";
-@import "https://kanita92.github.io/Travel-Website/social.css";
-@import"https://kanita92.github.io/Travel-Website/nav.css";
+@import "../homePage/font.css";
+@import "../homePage/social.css";
+@import"../homePage/nav.css";
+
 
 
 h1{
@@ -24,7 +25,7 @@ nav .menu a{
 }
 
 .statue{
-    background-image: url("https://kanita92.github.io/Travel-Website/temple.jpg");
+    background-image: url("../images/temple.jpg");
     background-position:inherit;
     background-size:contain;
     border-radius: 30px;
@@ -41,7 +42,7 @@ nav .menu a{
 }
 
 .card{
-    background-image: url("https://kanita92.github.io/Travel-Website/avatar.jpg");
+    background-image: url("../images/avatar.jpg");
     height: 150px;
     width: 160px;
     background-position:inherit;
@@ -93,7 +94,7 @@ ul{
         }
 
         .statue{
-            background-image: url("https://kanita92.github.io/Travel-Website/temple.jpg");
+            background-image: url("../images/temple.jpg");
             background-position:inherit;
             background-size:cover;
             border-radius: 5px;
@@ -106,7 +107,7 @@ ul{
         }
 
         .card{
-            background-image: url("https://kanita92.github.io/Travel-Website/avatar.jpg");
+            background-image: url("../images/avatar.jpg");
             height: 150px;
             width: 160px;
             background-position:left;
