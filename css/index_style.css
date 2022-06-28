@@ -1,6 +1,6 @@
-@import "./font.css";
-@import "./social.css";
-@import"./nav.css";
+@import "../css/font.css";
+@import "../css/nav.css";
+@import"../css/social.css";
 
 h1{
     font-size: 30px;
@@ -12,6 +12,14 @@ h2{
     font-size:20px;
     letter-spacing: 1.0px;
     font-weight: normal;
+}
+
+blockquote{
+    font-size: 17px;
+}
+
+p{
+    font-size: 17px;
 }
 
 h3{
@@ -176,6 +184,13 @@ footer{
   span{
       text-decoration: underline;
 }
+
+.caption3{
+    text-align: right;
+    font-size: 12px;
+}
+    
+
     
 
   @media only screen and (max-width: 600px) {
@@ -208,6 +223,14 @@ footer{
         h2{
             font-size:13px;
     }
+
+        blockquote{
+            font-size: 12px;
+    }
+
+        p{
+            font-size:12px;
+        }
 
         nav{
             display: grid;

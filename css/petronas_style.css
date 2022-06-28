@@ -1,6 +1,7 @@
-@import "../homePage/font.css";
-@import "../homePage/social.css";
-@import"../homePage/nav.css";
+@import "../css/font.css";
+@import "../css/nav.css";
+@import"../css/social.css";
+
 
 h1{
     font-size: 25px;
@@ -25,8 +26,8 @@ nav .menu a{
 }
 
 .statue{
-    background-image: url("../images/teagarden.jpg");
-    background-position:center;
+    background-image: url("../images/towers.jpg");
+    background-position:inherit;
     background-size:contain;
     border-radius: 5px;
     height: 80vh;
@@ -34,10 +35,10 @@ nav .menu a{
 }
 
 
+
 .social{
     font-size: 40px;
 }
-
 
   .fa-twitter {
     margin-right: 10px;
@@ -47,7 +48,6 @@ nav .menu a{
   .fa-linkedin {
     margin-top: 10px;
   }
-
 
   @media only screen and (max-width: 600px) {
         nav .menu a{
@@ -63,7 +63,7 @@ nav .menu a{
         }
 
         .statue{
-            background-image: url("../images/teagarden.jpg");
+            background-image: url("../images/towers.jpg");
             background-position:inherit;
             background-size:cover;
             border-radius: 5px;

@@ -1,102 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanita's Blog</title>
-  <link rel="stylesheet" href="./homePage/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-
-<body>
-  <div class="blog-container">
-    <nav>
-      <div class="logo">
-        <h1>KANITA'S TRAVEL DIARY</h1>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kanita's Blog</title>
+      <link rel="stylesheet" href="./css/index_style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="blog-container">
+         <nav>
+            <div class="logo">
+               <h1>KANITA'S TRAVEL DIARY</h1>
+            </div>
+            <div class="menu">
+               <a href="index.html">Home</a>
+               <a href="./pages/chinSwee.html">Blog</a>
+               <a href="./pages/about.html">About</a>
+            </div>
+         </nav>
       </div>
-      <div class="menu">
-        <a href="index.html">Home</a>
-        <a href="./chinSwee/blogpost1.html">Blog</a>
-        <a href="./about/about.html">About</a>
+      <section class="part1">
+         <div class="teagarden"></div>
+         <div class="intro"></div>
+         <div class="intromessage">
+            <main>
+               <span>Malaysia Blog</span>
+               <h2>Malaysia is a beautiful country located in South East Asia. The country features some breathtakingly beautiful natural places, friendly local people and amazing food. This blog will capture some of the spots I had visited in 2017.</h2>
+               <p><u>Here is a quote from <em><b>TripAdvisor</b></em> website:</u></p>
+               <blockquote><em>"Malaysia is a beautifully complex vacation destination, a land where ancient rainforests give way to multicultural city life."</em></blockquote>
+            </main>
+         </div>
+         <div class="blogpostintro">
+            <h2>
+               <a href="./pages/chinSwee.html" class="redlink">Visit Chin Swee Temple</a>
+            </h2>
+         </div>
+      </section>
+      <section class="part2">
+         <div class="highway"></div>
+         <div class="blogpost1">
+         </div>
+      </section>
+      <div class="caption3">
+         <figurecaption>View from the top of Chin Swee temples,Pahang, Malaysia</figurecaption>
       </div>
-    </nav>
-  </div>
-
-  <section class="part1">
-      <div class="teagarden"></div>
-      <div class="intro"></div>
-      <div class="intromessage">
-      <main>
-        <span>Malaysia Blog</span>
-        <h2>Malaysia is a beautiful country located in South East Asia. The country features some breathtakingly beautiful natural places, friendly local people and amazing food. This blog will capture some of the spots I had visited in 2017.</h2>
-      </main>
+      <section class="part3">
+         <div class="cameron"></div>
+         <h2>
+            <a href="./pages/cameronHighlands.html" class="blacklink"> Visit Cameron Highlands</a>
+         </h2>
+      </section>
+      <div class="blogpost2">
       </div>
-      <div class="blogpostintro">
-      <h2>
-        <a href="./chinSwee/blogpost1.html" class="redlink">Visit Chin Swee Temple</a>
-      </h2>
+      <div class="caption3">
+         <figurecaption>Cameron Highlands,Pahang, Malaysia</figurecaption>
       </div>
-  </section>
-
-  <section class="part2">
-    <div class="highway"></div>
-        <div class="blogpost1">
-        </div>
-  </section>
-
-
-  <section class="part3">
-    <div class="cameron"></div>
-    <h2>
-      <a href="./cameronHighlands/blogpost2.html" class="blacklink"> Visit Cameron Highlands</a>
-    </h2>  
-  </section>
-    
-  <div class="blogpost2">
-    </div>
-  
-  <section class="part4">
-    <div class="tower"></div>
-   <h2>
-    <a href="./petronastowers/blogpost3.html" class="bluelink"">Visit Petronus Tower</a>
-   </h2>
-  </section>
-    <div class="blogpost3">
-      
-    </div>
-
-  <section class="part5">
-    <h3>Enter your Email Address and Name to subscribe.</h3>
-    <form>
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" value=""><br><br>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" value=""><br><br>
-      <input type="submit" value="Submit">
-    </form> 
-  </section> 
-
-
-    <footer>
-      <label for="city-select">Choose a city I should post a blog about next:</label>
-        <select id= "city-select">
+      <section class="part4">
+         <div class="tower"></div>
+         <h2>
+            <a href="./pages/petronasTowers.html" class="bluelink"">Visit Petronus Tower</a>
+         </h2>
+      </section>
+      <div class="blogpost3">
+      </div>
+      <div class="caption3">
+         <figurecaption>Petronas Twin Towers. Kuala Lampur, Malaysia</figurecaption>
+      </div>
+      <section class="part5">
+         <h3>Enter your Email Address and Name to subscribe.</h3>
+         <form>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" value=""><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value=""><br><br>
+            <input type="submit" value="Submit">
+         </form>
+      </section>
+      <footer>
+         <label for="city-select">Choose a city I should post a blog about next:</label>
+         <select id= "city-select">
             <option value="">--Please choose a city--</option>
             <option value="penang">Penang</option>
             <option value="georgetown">George Town</option>
-        </select>
-        
-        <button>Submit</button><br><br>
-    
-      <div class="social">  
-        <h3>Follow me on Social Media!</h3>   
-        <a href="https://twitter.com/?lang=en" class="fa fa-twitter">Twitter</a>
-        <a href="https://www.linkedin.com/in/kanitaniki/" class="fa fa-linkedin">LinkedIn</a>
-        <a href="https://facebook.com/?lang=en/" class="fa fa-facebook">Facebook</a>
-        </div>
-    </footer> 
-  
-
-  </body>
+         </select>
+         <button>Submit</button><br><br>
+         <div class="social">
+            <h3>Follow me on Social Media!</h3>
+            <a href="https://twitter.com/?lang=en" class="fa fa-twitter">Twitter</a>
+            <a href="https://www.linkedin.com/in/kanitaniki/" class="fa fa-linkedin">LinkedIn</a>
+            <a href="https://facebook.com/?lang=en/" class="fa fa-facebook">Facebook</a>
+         </div>
+      </footer>
+   </body>
 </html>
